@@ -1,0 +1,105 @@
+body {
+    font-family: 'Sriracha', cursive;
+    
+}
+*{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+/* navbar */
+.brand {
+    font-size:2rem;
+}
+nav  ul li a {
+    font-size: 1.2rem;
+}
+
+
+/* search field  */
+.search-box {
+    background-color: #eeecec;
+    width: 610px;
+    height: 60px;
+}
+.icon {
+    height: 60px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    color: #413d3d;
+}
+.icon:hover {
+    color: #413d3d;
+}
+.search-field {
+    border-radius: 0;
+    border: none;
+    height: 60px;
+    width:500px;
+    background-color: #eeecec;
+}
+.search-field:focus  {
+    background-color: #eeecec;
+    border-color: none !important;
+}
+.search-btn  {
+    height: 60px;
+    border: none;
+}
+
+
+/* food list section  */
+.dish-img {
+    width: 100%;
+    height: 200px;
+    background-color: hotpink;
+}
+.item {
+    background-color: #eeecec;
+    border-radius: 10px;
+}
+.food {
+    cursor: pointer;
+}
+
+
+
+
+/* information about the food */
+.dish-information {
+    position: relative;
+    width: 600px;
+    margin: 0 auto;
+}
+.dish-full-img {
+    background-color: royalblue;
+    height: 350px;
+    width: 600px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+}
+.dish-full-img img {
+    height: 350px;
+    width: 600px;
+    border-radius: 20px;
+}
+.information p {
+    color: #686363;
+}
+.tick {
+    margin-right: 10px;
+}
+.back {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+}
